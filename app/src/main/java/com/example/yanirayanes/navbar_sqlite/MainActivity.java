@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, agregar_notas.OnFragmentInteractionListener,
         agregar_persona.OnFragmentInteractionListener, lista_notas.OnFragmentInteractionListener, show_notas.OnFragmentInteractionListener{
 
+    private static MainActivity instance;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
