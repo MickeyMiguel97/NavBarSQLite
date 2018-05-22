@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.show_notas">
+
+    <TextView
+        android:id="@+id/media_de_notas"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="0"
+        android:textSize="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/TeVi_notas"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Notas:"
+        android:textSize="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/TeVi_nose"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Media: "
+        android:textSize="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"/>
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:name="com.example.yanirayanes.navbar_sqlite.fragmentos.lista_notas"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:layout="@layout/fragment_lista_notas">
+    </fragment>
+
+</RelativeLayout>

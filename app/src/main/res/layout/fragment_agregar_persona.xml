@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_person_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.agregar_persona">
+
+    <Button
+        android:id="@+id/btn_agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregrar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"/>
+
+    <TextView
+        android:id="@+id/TeVi_title"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="AGREGAR UNA PERSONA"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/ImVi_icp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icp_0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/TeVi_carnet"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Carnet: "
+        android:textSize="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="60dp"/>
+
+    <TextView
+        android:id="@+id/TeVi_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Nombre: "
+        android:textSize="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@id/TeVi_carnet"/>
+
+    <EditText
+        android:id="@+id/EdTe_carnet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Carnet               "
+        android:textSize="18dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="150dp"/>
+
+    <EditText
+        android:id="@+id/EdTe_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Nombre            "
+        android:textSize="18dp"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@id/EdTe_carnet"/>
+
+
+</RelativeLayout>
