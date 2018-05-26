@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 
 import com.example.yanirayanes.navbar_sqlite.R;
 
-
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
