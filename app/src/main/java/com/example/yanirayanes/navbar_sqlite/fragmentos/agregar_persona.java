@@ -72,6 +72,7 @@ public class agregar_persona extends Fragment {
         ImVi_icp = ImVi_icp.findViewById(R.id.ImVi_icp);
         EdTe_carnet = EdTe_carnet.findViewById(R.id.EdTe_carnet);
         EdTe_nombre = EdTe_nombre.findViewById(R.id.EdTe_nombre);
+        Bundle args = new Bundle();
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);

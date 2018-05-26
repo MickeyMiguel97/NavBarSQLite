@@ -9,6 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.yanirayanes.navbar_sqlite.R;
+import com.example.yanirayanes.navbar_sqlite.db.DBhelper;
+
+import java.util.ArrayList;
 
 
 /**
@@ -22,6 +25,8 @@ import com.example.yanirayanes.navbar_sqlite.R;
 public class lista_notas extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+    private int ContColum = 1;
+    private ArrayList personas;
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
@@ -106,5 +111,12 @@ public class lista_notas extends Fragment {
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
+    }
+
+    public static final class Companion{
+        private Companion(){
+
+        }
+
     }
 }

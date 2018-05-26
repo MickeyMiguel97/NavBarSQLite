@@ -113,4 +113,7 @@ public class DBhelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS "+CAMPO_NOMBRE);
         onCreate(db);
     }
+
+    public static final class Companion {
+    }
 }
